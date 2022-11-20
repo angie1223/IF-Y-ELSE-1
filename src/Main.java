@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Introduzca un carácter: ");
         car = (char) System.in.read(); //lee un solo caracter
 
-        if (Character.isUpperCase(car)) //utilizamos el método isUpperCase de la clase Character
+        if (Character.isUpperCase(car)) 
         {
             System.out.println("Es una letra mayúscula");
         } else {
